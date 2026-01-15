@@ -3,8 +3,8 @@ def countLetters(anyText:str,anyLetter:str)->int:
   counter = 0
   anyText = input("what is your text?")
   anyLetter = input("what letter are you looking for?")
-  if anyLetter in anyText: 
-    print("yes, it is in the word. ")
-  else:
-    print("no, it is not in the word. ")
+  for anyLetter in anyText: 
+    if anyLetter == anytext:
+      counter + 1
+  
   return counter
